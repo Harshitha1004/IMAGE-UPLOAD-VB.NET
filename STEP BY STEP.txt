@@ -1,0 +1,9 @@
+1. DRAG & DROP BUTTON[TEXT- PICTURE UPLOAD] , PICTUREBOX & OPENFILEDIALOG
+
+2. SELECT PICTUREBOX PLAYBUTTON SIZE MODE = STRETCHIMAGE
+
+3. BUTTON OPEN 
+
+If OpenFileDialog1.ShowDialog <> Windows.Forms.DialogResult.Cancel Then
+PictureBox1.Image = Image.FromFile(OpenFileDialog1.FileName)
+End If
